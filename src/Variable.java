@@ -105,6 +105,68 @@ public class Variable {
         int counter = 10;
         System.out.println(counter);
 
+        counter++;
+        System.out.println(counter);
+
+        counter--;
+        System.out.println(counter);
+
+        // Opgave 10
+        int number = 10;
+        number += 5;
+        System.out.println(number);
+
+        number -= 3;
+        System.out.println(number);
+
+        number++;
+        System.out.println(number);
+
+        number--;
+        System.out.println(number);
+
+        // Opgave 11
+        String itemForSale = "Laptop";
+        double itemPrice = 7999.99;
+        boolean inStock = true;
+        int stockCount = 15;
+        double discountPerItem = 10;
+        String itemCategory = "Electronics";
+
+        // Opgave 12
+        String studentName = "Anna";
+        int examScore = 85;
+        int assigmentScore = 92;
+        double gradeAverageFinal = 88.5;
+        boolean hasPassed = true;
+
+        // Opgave 13
+        String guestName = "Peter Hansen";
+        int guestRoom = 204;
+        int nights = 3;
+        double pricePerNight = 899.00;
+        boolean isBreakfastIncluded = true;
+        double totalPrice = 2697.00;
+
+        // Opgave 14
+        int stepCount = 8547;
+        int stepsWanted = 10000;
+        double distanceWalked = 6.2;
+        int caloriesBurned = 420;
+        boolean goalReached = false;
+
+        // Opgave 15
+        String bookTitle;
+        String authorName;
+        String isbn;
+        int pageCount;
+        boolean isAvailable;
+        String currentUser;
+        String returnDate;
+        double finePrice;
+        boolean isBestseller;
+        double rating;
+
 
     }
 }
